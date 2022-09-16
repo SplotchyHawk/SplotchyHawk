@@ -1,0 +1,16 @@
+Sebastien Godbout's Demo Game
+
+I followed a tutorial by a youtuber named Brackeys called "HOW TO MAKE A GAME" (https://www.youtube.com/c/Brackeyswhere) 
+where I went to tutorial 7 before heading in different paths to find creative resources to help me code new mechanics. 
+He had made a similar game but without the slow motion touch once an obstacle had been hit. I also added a score 
+to keep track of waves passed instead of distanced travelled as he did. This is done by having a "backboard" that deletes 
+the dodged obstacles and records everytime a line hits it to add to the score. Relating to that topic, instead of the 
+player travelling forward to meet and dodge static blocks, I created waves of obstacles spawned by empty objects in a list 
+of 9 objects per line where a random number is chosen from 1-9 where at that index the obstacle does not spawn. This means 
+there's always 8 obstacle on each line with a space vacant on each wave. On top of this the speed of the waves slowly increases
+as you survive.
+
+PS: Be warned, the game speed and feeling takes a second to get used to. It has a mini flappy bird feeling.
+
+Double PS: If there is some other way to hand my stuff in let me know, I simply could not figure out where you would see my code
+from just building the demo file so I included all the script files in a folder within this package
